@@ -3,7 +3,7 @@
 Summary:	Term::ANSIScreen - Terminal control using ANSI escape sequences
 Name:		perl-%{real_name}
 Version:	1.42
-Release: %mkrel 2
+Release: %mkrel 3
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
@@ -22,6 +22,8 @@ screen mode, cursor control and keyboard mapping sequences.
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 %make
+
+%check
 make test
 
 %install
