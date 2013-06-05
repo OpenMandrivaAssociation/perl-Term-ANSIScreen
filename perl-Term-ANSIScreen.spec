@@ -2,14 +2,14 @@
 %define upstream_version 1.42
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.50
+Release:	1
 
 Summary:	Term::ANSIScreen - Terminal control using ANSI escape sequences
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Term/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/Term-ANSIScreen-1.50.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -66,4 +66,5 @@ make test
 
 * Thu Jul 14 2005 Oden Eriksson <oeriksson@mandriva.com> 1.42-1mdk
 - initial Mandriva package
+
 
