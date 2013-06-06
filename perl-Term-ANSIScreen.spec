@@ -1,6 +1,5 @@
 %define upstream_name    Term-ANSIScreen
-%define upstream_version 1.42
-
+%define upstream_version 1.50
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.50
 Release:	1
