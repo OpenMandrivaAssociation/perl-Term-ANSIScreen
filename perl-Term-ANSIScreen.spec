@@ -2,7 +2,7 @@
 %define upstream_version 1.50
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 1.50
-Release:	1
+Release:	2
 
 Summary:	Term::ANSIScreen - Terminal control using ANSI escape sequences
 License:	GPL+ or Artistic
