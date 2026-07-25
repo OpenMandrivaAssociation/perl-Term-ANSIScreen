@@ -1,14 +1,14 @@
 %define upstream_name    Term-ANSIScreen
 %define upstream_version 1.50
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.50
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Term::ANSIScreen - Terminal control using ANSI escape sequences
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/Term-ANSIScreen-1.50.tar.gz
+Url:		http://github.com/audreyt/Term-ANSIScreen/tree
+Source0:	https://cpan.metacpan.org/authors/id/A/AU/AUDREYT/Term-ANSIScreen-1.50.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
